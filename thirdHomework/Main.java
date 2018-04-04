@@ -58,8 +58,12 @@ public class Main {
         for (int i = 0; i < NumbersInArray; i++){
             newArray[i] = inputNewArray.nextInt();
         }
-        System.out.print(Arrays.toString(newArray));
-
-
+        System.out.println(Arrays.toString(newArray));
+        System.out.println("Enter the index of the desired item: ");
+        Scanner index = new Scanner(System.in);
+        int indexOfNewArray = index.nextInt();
+        System.out.println("Item which is interested for you:");
+        System.out.print(newArray[indexOfNewArray]);
         }
-    }
+        }
+
