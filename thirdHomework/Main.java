@@ -39,10 +39,7 @@ public class Main {
         System.out.println("Arithmetic mean is " + arithmeticMean);
         //fifth,(1)
         System.out.println("Fifth exercise:");
-        int b=1;
         for(int i=0;i<bigArray.length;i++){
-        bigArray[i]=b;
-        b++;
         System.out.print(bigArray[i]+", ");
         }
         System.out.println();
