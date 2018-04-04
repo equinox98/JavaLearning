@@ -20,7 +20,7 @@ public class Main {
         //third
         Scanner input = new Scanner(System.in);
         System.out.println("Third exercise:");
-        System.out.println("Enter array value: ");
+        System.out.println("Enter array values: ");
         int[] bigArray = new int[10];
         for (int i = 0; i < 10; i++)
             bigArray[i] = input.nextInt();
@@ -47,5 +47,19 @@ public class Main {
         for(int i=bigArray.length-1;i>=0;--i){
         System.out.print(bigArray[i]+", ");
         }
+        //fifth(2)
+        System.out.println("\nEnter number of elements in the array: \n");
+        Scanner s = new Scanner(System.in);
+        int NumbersInArray = s.nextInt();
+        int newArray[];
+        newArray = new int[NumbersInArray];
+        System.out.println("Enter array values: ");
+        Scanner inputNewArray = new Scanner(System.in);
+        for (int i = 0; i < NumbersInArray; i++){
+            newArray[i] = inputNewArray.nextInt();
+        }
+        System.out.print(Arrays.toString(newArray));
+
+
+        }
     }
-}
